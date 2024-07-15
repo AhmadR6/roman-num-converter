@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Luxurious+Roman&display=swap');
+* {
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+   
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #0f86a6;
+    font-family: "Luxurious Roman", serif;
+    font-weight: 400;
+    font-style:normal;
+}
+header {
+    height:20vh;
+    width:100vw;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: #1ba1bf;
+    margin-bottom: 5%;
+
+}
+#number {
+    border-radius: 20px;
+    text-align: center;
+}
+#calculator {
+    display: flex;
+    flex-direction: column;
+    width:50vw;
+    height:30vh;
+    border: solid 2px black;
+    border-radius: 20px;
+    padding:50px;
+    align-items: center;
+    background-color: #c9e6e8;
+
+}
+#number{
+   margin: 10px;
+   height: 30px;
+}
+#convert-btn{
+    padding:5px;
+    border-radius: 5px;
+
+}
+#output {
+    margin-top:10px ;
+    border: solid black 2px;
+    border-radius: 20px;
+    padding:50px;
+    background-color: #c9e6e8;
+
+}
